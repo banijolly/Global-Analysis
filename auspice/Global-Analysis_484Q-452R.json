@@ -71,16 +71,6 @@
         "type": "continuous"
       },
       {
-        "key": "subclade_membership",
-        "title": "Subclade",
-        "type": "categorical"
-      },
-      {
-        "key": "legacy_clade_membership",
-        "title": "New Nextstrain Clade",
-        "type": "categorical"
-      },
-      {
         "key": "recency",
         "scale": [
           [
@@ -93,6 +83,16 @@
           ]
         ],
         "title": "recency",
+        "type": "categorical"
+      },
+      {
+        "key": "subclade_membership",
+        "title": "Subclade",
+        "type": "categorical"
+      },
+      {
+        "key": "legacy_clade_membership",
+        "title": "New Nextstrain Clade",
         "type": "categorical"
       }
     ],
@@ -220,6 +220,23 @@
       }
     },
     "geo_resolutions": [
+      {
+        "demes": {
+          "China": {
+            "latitude": 35.000074,
+            "longitude": 104.999927
+          },
+          "India": {
+            "latitude": 22.3511148,
+            "longitude": 78.6677428
+          },
+          "Singapore": {
+            "latitude": 1.357107,
+            "longitude": 103.8194992
+          }
+        },
+        "key": "country"
+      },
       {
         "demes": {
           "Gujarat": {
