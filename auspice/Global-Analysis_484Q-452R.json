@@ -48,8 +48,28 @@
             "#34ebab"
           ],
           [
-            "Europe",
-            "#5AA5A7"
+            "Australia",
+            "#4375CD"
+          ],
+          [
+            "New Zealand",
+            "#c034eb"
+          ],
+          [
+            "Germany",
+            "#9CBE5B"
+          ],
+          [
+            "United Kingdom",
+            "#C7B944"
+          ],
+          [
+            "Sweden",
+            "#d8f5b5"
+          ],
+          [
+            "USA",
+            "#DD3325"
           ]
         ],
         "title": "Country",
@@ -222,17 +242,45 @@
     "geo_resolutions": [
       {
         "demes": {
+          "Australia": {
+            "latitude": -25.274399,
+            "longitude": 133.775131
+          },
           "China": {
             "latitude": 35.000074,
             "longitude": 104.999927
+          },
+          "Germany": {
+            "latitude": 51.0834196,
+            "longitude": 10.4234469
+          },
+          "Guadeloupe": {
+            "latitude": 16.265,
+            "longitude": -61.551
           },
           "India": {
             "latitude": 22.3511148,
             "longitude": 78.6677428
           },
+          "New Zealand": {
+            "latitude": -41.5000831,
+            "longitude": 172.834
+          },
           "Singapore": {
             "latitude": 1.357107,
             "longitude": 103.8194992
+          },
+          "Sweden": {
+            "latitude": 59.6749712,
+            "longitude": 14.5208584
+          },
+          "USA": {
+            "latitude": 39.7837304,
+            "longitude": -100.4458825
+          },
+          "United Kingdom": {
+            "latitude": 55.367,
+            "longitude": -3.96141844
           }
         },
         "key": "country"
@@ -435,7 +483,7 @@
                         "value": "A2a"
                       },
                       "country": {
-                        "value": "Europe"
+                        "value": "Sweden"
                       },
                       "div": 28.10816516006634,
                       "legacy_clade_membership": {
@@ -480,7 +528,7 @@
                         "value": "A2a"
                       },
                       "country": {
-                        "value": "Europe"
+                        "value": "Sweden"
                       },
                       "div": 28.10816516006634,
                       "legacy_clade_membership": {
@@ -552,7 +600,7 @@
                         "value": "A2a"
                       },
                       "country": {
-                        "value": "Europe"
+                        "value": "Sweden"
                       },
                       "div": 27.10890694011008,
                       "legacy_clade_membership": {
@@ -602,7 +650,7 @@
                             "value": "A2a"
                           },
                           "country": {
-                            "value": "Europe"
+                            "value": "Sweden"
                           },
                           "div": 27.10890694011008,
                           "legacy_clade_membership": {
@@ -647,7 +695,7 @@
                             "value": "A2a"
                           },
                           "country": {
-                            "value": "Europe"
+                            "value": "Sweden"
                           },
                           "div": 27.10890694011008,
                           "legacy_clade_membership": {
@@ -827,7 +875,7 @@
                         "value": "A2a"
                       },
                       "country": {
-                        "value": "North America"
+                        "value": "USA"
                       },
                       "div": 26.06860533420778,
                       "legacy_clade_membership": {
@@ -886,7 +934,7 @@
                             "value": "A2a"
                           },
                           "country": {
-                            "value": "North America"
+                            "value": "USA"
                           },
                           "div": 25.046512137823456,
                           "legacy_clade_membership": {
@@ -943,7 +991,7 @@
                                 "value": "A2a"
                               },
                               "country": {
-                                "value": "North America"
+                                "value": "USA"
                               },
                               "div": 25.039037573838854,
                               "legacy_clade_membership": {
@@ -996,7 +1044,7 @@
                                 "value": "A2a"
                               },
                               "country": {
-                                "value": "North America"
+                                "value": "USA"
                               },
                               "div": 27.051060158624338,
                               "legacy_clade_membership": {
@@ -1147,7 +1195,7 @@
                         "value": "A2a"
                       },
                       "country": {
-                        "value": "North America"
+                        "value": "USA"
                       },
                       "div": 27.056539305225183,
                       "legacy_clade_membership": {
@@ -1219,7 +1267,7 @@
                             "value": "A2a"
                           },
                           "country": {
-                            "value": "North America"
+                            "value": "USA"
                           },
                           "div": 30.06542553602975,
                           "legacy_clade_membership": {
@@ -1291,7 +1339,7 @@
                                 "value": "A2a"
                               },
                               "country": {
-                                "value": "North America"
+                                "value": "USA"
                               },
                               "div": 29.036300185960833,
                               "legacy_clade_membership": {
@@ -1355,7 +1403,7 @@
                                     "value": "A2a"
                                   },
                                   "country": {
-                                    "value": "North America"
+                                    "value": "USA"
                                   },
                                   "div": 29.03620861773937,
                                   "legacy_clade_membership": {
@@ -1405,7 +1453,7 @@
                                         "value": "A2a"
                                       },
                                       "country": {
-                                        "value": "North America"
+                                        "value": "USA"
                                       },
                                       "div": 27.02984017139001,
                                       "legacy_clade_membership": {
@@ -1455,7 +1503,7 @@
                                             "value": "A2a"
                                           },
                                           "country": {
-                                            "value": "North America"
+                                            "value": "USA"
                                           },
                                           "div": 27.02984017139001,
                                           "legacy_clade_membership": {
@@ -1505,7 +1553,7 @@
                                                 "value": "A2a"
                                               },
                                               "country": {
-                                                "value": "North America"
+                                                "value": "USA"
                                               },
                                               "div": 27.02984017139001,
                                               "legacy_clade_membership": {
@@ -1560,7 +1608,7 @@
                                                 "value": "A2a"
                                               },
                                               "country": {
-                                                "value": "North America"
+                                                "value": "USA"
                                               },
                                               "div": 28.03296069800934,
                                               "legacy_clade_membership": {
@@ -2074,7 +2122,7 @@
                                     "value": "A2a"
                                   },
                                   "country": {
-                                    "value": "Europe"
+                                    "value": "United Kingdom"
                                   },
                                   "div": 30.080843526609694,
                                   "legacy_clade_membership": {
@@ -4741,7 +4789,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Europe"
+                                                    "value": "United Kingdom"
                                                   },
                                                   "div": 31.019900616009846,
                                                   "legacy_clade_membership": {
@@ -4780,7 +4828,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Europe"
+                                                    "value": "United Kingdom"
                                                   },
                                                   "div": 31.019900616009846,
                                                   "legacy_clade_membership": {
@@ -4861,7 +4909,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Europe"
+                                                    "value": "United Kingdom"
                                                   },
                                                   "div": 32.03300562564387,
                                                   "legacy_clade_membership": {
@@ -4900,7 +4948,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Europe"
+                                                    "value": "United Kingdom"
                                                   },
                                                   "div": 29.02088476534553,
                                                   "legacy_clade_membership": {
@@ -5009,7 +5057,7 @@
                                                 "value": "A2a"
                                               },
                                               "country": {
-                                                "value": "Europe"
+                                                "value": "United Kingdom"
                                               },
                                               "div": 32.02894341675817,
                                               "legacy_clade_membership": {
@@ -5069,7 +5117,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Europe"
+                                                    "value": "United Kingdom"
                                                   },
                                                   "div": 34.02821403707991,
                                                   "legacy_clade_membership": {
@@ -5108,7 +5156,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Europe"
+                                                    "value": "United Kingdom"
                                                   },
                                                   "div": 34.02821403707989,
                                                   "legacy_clade_membership": {
@@ -5505,7 +5553,7 @@
                                             "value": "A2a"
                                           },
                                           "country": {
-                                            "value": "Europe"
+                                            "value": "Germany"
                                           },
                                           "div": 29.030548769010206,
                                           "legacy_clade_membership": {
@@ -5625,7 +5673,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Oceania"
+                                                    "value": "Australia"
                                                   },
                                                   "div": 28.027360484109444,
                                                   "legacy_clade_membership": {
@@ -5680,7 +5728,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "North America"
+                                                        "value": "USA"
                                                       },
                                                       "div": 27.027171271548706,
                                                       "legacy_clade_membership": {
@@ -5727,7 +5775,7 @@
                                                             "value": "A2a"
                                                           },
                                                           "country": {
-                                                            "value": "Europe"
+                                                            "value": "United Kingdom"
                                                           },
                                                           "div": 26.019979447265463,
                                                           "legacy_clade_membership": {
@@ -5775,7 +5823,7 @@
                                                                 "value": "A2a"
                                                               },
                                                               "country": {
-                                                                "value": "Europe"
+                                                                "value": "United Kingdom"
                                                               },
                                                               "div": 27.019308044239764,
                                                               "legacy_clade_membership": {
@@ -5814,7 +5862,7 @@
                                                                 "value": "A2a"
                                                               },
                                                               "country": {
-                                                                "value": "Europe"
+                                                                "value": "United Kingdom"
                                                               },
                                                               "div": 27.019308044239764,
                                                               "legacy_clade_membership": {
@@ -6350,7 +6398,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "North America"
+                                                    "value": "USA"
                                                   },
                                                   "div": 28.02306711779732,
                                                   "legacy_clade_membership": {
@@ -6515,7 +6563,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Europe"
+                                                    "value": "United Kingdom"
                                                   },
                                                   "div": 31.04152527643781,
                                                   "legacy_clade_membership": {
@@ -6565,7 +6613,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Oceania"
+                                                    "value": "Australia"
                                                   },
                                                   "div": 28.02620762464003,
                                                   "legacy_clade_membership": {
@@ -6795,7 +6843,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "Europe"
+                                                        "value": "United Kingdom"
                                                       },
                                                       "div": 27.01987599186508,
                                                       "legacy_clade_membership": {
@@ -6834,7 +6882,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "Europe"
+                                                        "value": "United Kingdom"
                                                       },
                                                       "div": 27.01987599186508,
                                                       "legacy_clade_membership": {
@@ -6952,7 +7000,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "Europe"
+                                                        "value": "United Kingdom"
                                                       },
                                                       "div": 29.019897773244058,
                                                       "legacy_clade_membership": {
@@ -6991,7 +7039,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "Europe"
+                                                        "value": "United Kingdom"
                                                       },
                                                       "div": 29.019897773244058,
                                                       "legacy_clade_membership": {
@@ -7175,7 +7223,7 @@
                                                             "value": "A2a"
                                                           },
                                                           "country": {
-                                                            "value": "Europe"
+                                                            "value": "United Kingdom"
                                                           },
                                                           "div": 26.024028978278682,
                                                           "legacy_clade_membership": {
@@ -9045,7 +9093,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "North America"
+                                                    "value": "Guadeloupe"
                                                   },
                                                   "div": 31.028332523847446,
                                                   "legacy_clade_membership": {
@@ -9103,7 +9151,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "North America"
+                                                    "value": "Guadeloupe"
                                                   },
                                                   "div": 33.037183025515986,
                                                   "legacy_clade_membership": {
@@ -9403,7 +9451,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Europe"
+                                                    "value": "United Kingdom"
                                                   },
                                                   "div": 37.05517886736122,
                                                   "legacy_clade_membership": {
@@ -10716,7 +10764,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Europe"
+                                                    "value": "United Kingdom"
                                                   },
                                                   "div": 35.032205776602034,
                                                   "legacy_clade_membership": {
@@ -10788,7 +10836,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "Europe"
+                                                        "value": "United Kingdom"
                                                       },
                                                       "div": 37.027188238832096,
                                                       "legacy_clade_membership": {
@@ -10837,7 +10885,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "Europe"
+                                                        "value": "United Kingdom"
                                                       },
                                                       "div": 37.026781893661635,
                                                       "legacy_clade_membership": {
@@ -12767,7 +12815,7 @@
                                                                 "value": "A2a"
                                                               },
                                                               "country": {
-                                                                "value": "Europe"
+                                                                "value": "United Kingdom"
                                                               },
                                                               "div": 30.023419274630808,
                                                               "legacy_clade_membership": {
@@ -12811,7 +12859,7 @@
                                                                     "value": "A2a"
                                                                   },
                                                                   "country": {
-                                                                    "value": "Europe"
+                                                                    "value": "United Kingdom"
                                                                   },
                                                                   "div": 29.019942195630854,
                                                                   "legacy_clade_membership": {
@@ -12850,7 +12898,7 @@
                                                                     "value": "A2a"
                                                                   },
                                                                   "country": {
-                                                                    "value": "Europe"
+                                                                    "value": "United Kingdom"
                                                                   },
                                                                   "div": 29.019942195630833,
                                                                   "legacy_clade_membership": {
@@ -13341,7 +13389,7 @@
                                                                             "value": "A2a"
                                                                           },
                                                                           "country": {
-                                                                            "value": "Europe"
+                                                                            "value": "United Kingdom"
                                                                           },
                                                                           "div": 35.02653694131483,
                                                                           "legacy_clade_membership": {
@@ -13389,7 +13437,7 @@
                                                                                 "value": "A2a"
                                                                               },
                                                                               "country": {
-                                                                                "value": "Europe"
+                                                                                "value": "United Kingdom"
                                                                               },
                                                                               "div": 34.02234734141665,
                                                                               "legacy_clade_membership": {
@@ -13443,7 +13491,7 @@
                                                                                     "value": "A2a"
                                                                                   },
                                                                                   "country": {
-                                                                                    "value": "Europe"
+                                                                                    "value": "United Kingdom"
                                                                                   },
                                                                                   "div": 34.02253237437727,
                                                                                   "legacy_clade_membership": {
@@ -13487,7 +13535,7 @@
                                                                                         "value": "A2a"
                                                                                       },
                                                                                       "country": {
-                                                                                        "value": "Europe"
+                                                                                        "value": "United Kingdom"
                                                                                       },
                                                                                       "div": 33.01858222592657,
                                                                                       "legacy_clade_membership": {
@@ -13526,7 +13574,7 @@
                                                                                         "value": "A2a"
                                                                                       },
                                                                                       "country": {
-                                                                                        "value": "Europe"
+                                                                                        "value": "United Kingdom"
                                                                                       },
                                                                                       "div": 33.01858222592657,
                                                                                       "legacy_clade_membership": {
@@ -13882,7 +13930,7 @@
                                                                 "value": "A2a"
                                                               },
                                                               "country": {
-                                                                "value": "Oceania"
+                                                                "value": "New Zealand"
                                                               },
                                                               "div": 30.024373409355583,
                                                               "legacy_clade_membership": {
@@ -14280,7 +14328,7 @@
                                                             "value": "A2a"
                                                           },
                                                           "country": {
-                                                            "value": "Europe"
+                                                            "value": "United Kingdom"
                                                           },
                                                           "div": 36.064459572401894,
                                                           "legacy_clade_membership": {
@@ -14550,7 +14598,7 @@
                                                                         "value": "A2a"
                                                                       },
                                                                       "country": {
-                                                                        "value": "Europe"
+                                                                        "value": "United Kingdom"
                                                                       },
                                                                       "div": 32.04862109292869,
                                                                       "legacy_clade_membership": {
@@ -14666,7 +14714,7 @@
                                                                                     "value": "A2a"
                                                                                   },
                                                                                   "country": {
-                                                                                    "value": "Europe"
+                                                                                    "value": "United Kingdom"
                                                                                   },
                                                                                   "div": 31.01958568305066,
                                                                                   "legacy_clade_membership": {
@@ -14705,7 +14753,7 @@
                                                                                     "value": "A2a"
                                                                                   },
                                                                                   "country": {
-                                                                                    "value": "Europe"
+                                                                                    "value": "United Kingdom"
                                                                                   },
                                                                                   "div": 31.01958568305066,
                                                                                   "legacy_clade_membership": {
@@ -14744,7 +14792,7 @@
                                                                                     "value": "A2a"
                                                                                   },
                                                                                   "country": {
-                                                                                    "value": "Europe"
+                                                                                    "value": "United Kingdom"
                                                                                   },
                                                                                   "div": 31.01958568305066,
                                                                                   "legacy_clade_membership": {
@@ -14835,7 +14883,7 @@
                                                                                         "value": "A2a"
                                                                                       },
                                                                                       "country": {
-                                                                                        "value": "Europe"
+                                                                                        "value": "United Kingdom"
                                                                                       },
                                                                                       "div": 30.024032338121586,
                                                                                       "legacy_clade_membership": {
@@ -14982,7 +15030,7 @@
                                                                                                 "value": "A2a"
                                                                                               },
                                                                                               "country": {
-                                                                                                "value": "Europe"
+                                                                                                "value": "United Kingdom"
                                                                                               },
                                                                                               "div": 30.019728901258812,
                                                                                               "legacy_clade_membership": {
@@ -15021,7 +15069,7 @@
                                                                                                 "value": "A2a"
                                                                                               },
                                                                                               "country": {
-                                                                                                "value": "Europe"
+                                                                                                "value": "United Kingdom"
                                                                                               },
                                                                                               "div": 30.019728901258812,
                                                                                               "legacy_clade_membership": {
@@ -15107,7 +15155,7 @@
                                                                                                     "value": "A2a"
                                                                                                   },
                                                                                                   "country": {
-                                                                                                    "value": "North America"
+                                                                                                    "value": "USA"
                                                                                                   },
                                                                                                   "div": 31.034705502226153,
                                                                                                   "legacy_clade_membership": {
@@ -15218,7 +15266,7 @@
                                                                                                         "value": "A2a"
                                                                                                       },
                                                                                                       "country": {
-                                                                                                        "value": "Europe"
+                                                                                                        "value": "United Kingdom"
                                                                                                       },
                                                                                                       "div": 30.023485846260932,
                                                                                                       "legacy_clade_membership": {
@@ -15331,7 +15379,7 @@
                                                                                                     "value": "A2a"
                                                                                                   },
                                                                                                   "country": {
-                                                                                                    "value": "Europe"
+                                                                                                    "value": "United Kingdom"
                                                                                                   },
                                                                                                   "div": 33.02659544761878,
                                                                                                   "legacy_clade_membership": {
@@ -15646,7 +15694,7 @@
                                                                                             "value": "A2a"
                                                                                           },
                                                                                           "country": {
-                                                                                            "value": "Oceania"
+                                                                                            "value": "Australia"
                                                                                           },
                                                                                           "div": 31.04764206612702,
                                                                                           "legacy_clade_membership": {
@@ -15714,7 +15762,7 @@
                                                                                                         "value": "A2a"
                                                                                                       },
                                                                                                       "country": {
-                                                                                                        "value": "Europe"
+                                                                                                        "value": "United Kingdom"
                                                                                                       },
                                                                                                       "div": 30.020554903954434,
                                                                                                       "legacy_clade_membership": {
@@ -15753,7 +15801,7 @@
                                                                                                         "value": "A2a"
                                                                                                       },
                                                                                                       "country": {
-                                                                                                        "value": "Europe"
+                                                                                                        "value": "United Kingdom"
                                                                                                       },
                                                                                                       "div": 30.020554903954434,
                                                                                                       "legacy_clade_membership": {
@@ -15835,7 +15883,7 @@
                                                                                                             "value": "A2a"
                                                                                                           },
                                                                                                           "country": {
-                                                                                                            "value": "Europe"
+                                                                                                            "value": "United Kingdom"
                                                                                                           },
                                                                                                           "div": 30.019801884634603,
                                                                                                           "legacy_clade_membership": {
@@ -15874,7 +15922,7 @@
                                                                                                             "value": "A2a"
                                                                                                           },
                                                                                                           "country": {
-                                                                                                            "value": "Europe"
+                                                                                                            "value": "United Kingdom"
                                                                                                           },
                                                                                                           "div": 30.019801884634603,
                                                                                                           "legacy_clade_membership": {
@@ -15954,7 +16002,7 @@
                                                                                                             "value": "A2a"
                                                                                                           },
                                                                                                           "country": {
-                                                                                                            "value": "Europe"
+                                                                                                            "value": "United Kingdom"
                                                                                                           },
                                                                                                           "div": 30.02813172802494,
                                                                                                           "legacy_clade_membership": {
@@ -16115,7 +16163,7 @@
                                                                                                                 "value": "A2a"
                                                                                                               },
                                                                                                               "country": {
-                                                                                                                "value": "North America"
+                                                                                                                "value": "USA"
                                                                                                               },
                                                                                                               "div": 31.032451958302588,
                                                                                                               "legacy_clade_membership": {
