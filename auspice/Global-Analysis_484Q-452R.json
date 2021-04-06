@@ -28,11 +28,6 @@
         "type": "categorical"
       },
       {
-        "key": "pangolin_lineage",
-        "title": "PANGO Lineage",
-        "type": "categorical"
-      },
-      {
         "key": "subclade_membership",
         "title": "Subclade",
         "type": "categorical"
@@ -53,28 +48,8 @@
             "#34ebab"
           ],
           [
-            "Australia",
-            "#4375CD"
-          ],
-          [
-            "New Zealand",
-            "#c034eb"
-          ],
-          [
-            "Germany",
-            "#9CBE5B"
-          ],
-          [
-            "United Kingdom",
-            "#C7B944"
-          ],
-          [
-            "Sweden",
-            "#d8f5b5"
-          ],
-          [
-            "USA",
-            "#DD3325"
+            "Europe",
+            "#5AA5A7"
           ]
         ],
         "title": "Country",
@@ -91,29 +66,9 @@
         "type": "categorical"
       },
       {
-        "key": "recency",
-        "scale": [
-          [
-            "Older",
-            "#416DCE"
-          ],
-          [
-            "3-7 days ago",
-            "#BBBC49"
-          ]
-        ],
-        "title": "Submission Date",
-        "type": "categorical"
-      },
-      {
         "key": "age",
         "title": "Patient Age",
         "type": "continuous"
-      },
-      {
-        "key": "legacy_clade_membership",
-        "title": "New Nextstrain Clade",
-        "type": "categorical"
       },
       {
         "key": "subclade_membership",
@@ -121,6 +76,11 @@
         "type": "categorical"
       },
       {
+        "key": "legacy_clade_membership",
+        "title": "New Nextstrain Clade",
+        "type": "categorical"
+      },
+      {
         "key": "recency",
         "scale": [
           [
@@ -132,7 +92,7 @@
             "#BBBC49"
           ]
         ],
-        "title": "Submission Date",
+        "title": "recency",
         "type": "categorical"
       }
     ],
@@ -144,16 +104,12 @@
       "map_triplicate": true
     },
     "filters": [
-      "database",
       "clade_membership",
-      "pangolin_lineage",
-      "GISAID_clade",
       "legacy_clade_membership",
       "state",
       "sex",
-      "district",
+      "country",
       "age",
-      "recency",
       "subclade_membership"
     ],
     "genome_annotations": {
@@ -310,7 +266,7 @@
       "map",
       "entropy"
     ],
-    "title": "Genomic epidemiology of novel coronavirus - India_Hq-focused subsampling",
+    "title": "Genomic epidemiology of E484Q-L452R Double Mutant Variant",
     "updated": "2021-04-06"
   },
   "tree": {
@@ -332,13 +288,6 @@
           },
           "country": {
             "value": "China"
-          },
-          "district": {
-            "confidence": {
-              "Wuhan": 1.0
-            },
-            "entropy": -1.000088900581841e-12,
-            "value": "Wuhan"
           },
           "div": 6.98042912655127e-18,
           "legacy_clade_membership": {
@@ -469,7 +418,7 @@
                         "value": "A2a"
                       },
                       "country": {
-                        "value": "Sweden"
+                        "value": "Europe"
                       },
                       "div": 28.10816516006634,
                       "legacy_clade_membership": {
@@ -514,7 +463,7 @@
                         "value": "A2a"
                       },
                       "country": {
-                        "value": "Sweden"
+                        "value": "Europe"
                       },
                       "div": 28.10816516006634,
                       "legacy_clade_membership": {
@@ -586,7 +535,7 @@
                         "value": "A2a"
                       },
                       "country": {
-                        "value": "Sweden"
+                        "value": "Europe"
                       },
                       "div": 27.10890694011008,
                       "legacy_clade_membership": {
@@ -636,7 +585,7 @@
                             "value": "A2a"
                           },
                           "country": {
-                            "value": "Sweden"
+                            "value": "Europe"
                           },
                           "div": 27.10890694011008,
                           "legacy_clade_membership": {
@@ -681,7 +630,7 @@
                             "value": "A2a"
                           },
                           "country": {
-                            "value": "Sweden"
+                            "value": "Europe"
                           },
                           "div": 27.10890694011008,
                           "legacy_clade_membership": {
@@ -861,7 +810,7 @@
                         "value": "A2a"
                       },
                       "country": {
-                        "value": "USA"
+                        "value": "North America"
                       },
                       "div": 26.06860533420778,
                       "legacy_clade_membership": {
@@ -920,7 +869,7 @@
                             "value": "A2a"
                           },
                           "country": {
-                            "value": "USA"
+                            "value": "North America"
                           },
                           "div": 25.046512137823456,
                           "legacy_clade_membership": {
@@ -977,14 +926,7 @@
                                 "value": "A2a"
                               },
                               "country": {
-                                "value": "USA"
-                              },
-                              "district": {
-                                "confidence": {
-                                  "Lyon County": 1.0
-                                },
-                                "entropy": -1.000088900581841e-12,
-                                "value": "Lyon County"
+                                "value": "North America"
                               },
                               "div": 25.039037573838854,
                               "legacy_clade_membership": {
@@ -1037,7 +979,7 @@
                                 "value": "A2a"
                               },
                               "country": {
-                                "value": "USA"
+                                "value": "North America"
                               },
                               "div": 27.051060158624338,
                               "legacy_clade_membership": {
@@ -1188,14 +1130,7 @@
                         "value": "A2a"
                       },
                       "country": {
-                        "value": "USA"
-                      },
-                      "district": {
-                        "confidence": {
-                          "Los Angeles County": 1.0
-                        },
-                        "entropy": -1.000088900581841e-12,
-                        "value": "Los Angeles County"
+                        "value": "North America"
                       },
                       "div": 27.056539305225183,
                       "legacy_clade_membership": {
@@ -1267,14 +1202,7 @@
                             "value": "A2a"
                           },
                           "country": {
-                            "value": "USA"
-                          },
-                          "district": {
-                            "confidence": {
-                              "Santa Clara County": 1.0
-                            },
-                            "entropy": -1.000088900581841e-12,
-                            "value": "Santa Clara County"
+                            "value": "North America"
                           },
                           "div": 30.06542553602975,
                           "legacy_clade_membership": {
@@ -1346,7 +1274,7 @@
                                 "value": "A2a"
                               },
                               "country": {
-                                "value": "USA"
+                                "value": "North America"
                               },
                               "div": 29.036300185960833,
                               "legacy_clade_membership": {
@@ -1410,7 +1338,7 @@
                                     "value": "A2a"
                                   },
                                   "country": {
-                                    "value": "USA"
+                                    "value": "North America"
                                   },
                                   "div": 29.03620861773937,
                                   "legacy_clade_membership": {
@@ -1460,7 +1388,7 @@
                                         "value": "A2a"
                                       },
                                       "country": {
-                                        "value": "USA"
+                                        "value": "North America"
                                       },
                                       "div": 27.02984017139001,
                                       "legacy_clade_membership": {
@@ -1510,7 +1438,7 @@
                                             "value": "A2a"
                                           },
                                           "country": {
-                                            "value": "USA"
+                                            "value": "North America"
                                           },
                                           "div": 27.02984017139001,
                                           "legacy_clade_membership": {
@@ -1560,7 +1488,7 @@
                                                 "value": "A2a"
                                               },
                                               "country": {
-                                                "value": "USA"
+                                                "value": "North America"
                                               },
                                               "div": 27.02984017139001,
                                               "legacy_clade_membership": {
@@ -1615,7 +1543,7 @@
                                                 "value": "A2a"
                                               },
                                               "country": {
-                                                "value": "USA"
+                                                "value": "North America"
                                               },
                                               "div": 28.03296069800934,
                                               "legacy_clade_membership": {
@@ -2129,7 +2057,7 @@
                                     "value": "A2a"
                                   },
                                   "country": {
-                                    "value": "United Kingdom"
+                                    "value": "Europe"
                                   },
                                   "div": 30.080843526609694,
                                   "legacy_clade_membership": {
@@ -3759,13 +3687,6 @@
                       "country": {
                         "value": "India"
                       },
-                      "district": {
-                        "confidence": {
-                          "Bankura": 1.0
-                        },
-                        "entropy": -1.000088900581841e-12,
-                        "value": "Bankura"
-                      },
                       "div": 29.133084714063596,
                       "legacy_clade_membership": {
                         "value": "20A"
@@ -4237,13 +4158,6 @@
                                       "country": {
                                         "value": "India"
                                       },
-                                      "district": {
-                                        "confidence": {
-                                          "Kolkata": 1.0
-                                        },
-                                        "entropy": -1.000088900581841e-12,
-                                        "value": "Kolkata"
-                                      },
                                       "div": 34.03924446050364,
                                       "legacy_clade_membership": {
                                         "value": "20A"
@@ -4682,13 +4596,6 @@
                                               "country": {
                                                 "value": "India"
                                               },
-                                              "district": {
-                                                "confidence": {
-                                                  "Bankura": 0.9999999999999999
-                                                },
-                                                "entropy": -9.99866855976916e-13,
-                                                "value": "Bankura"
-                                              },
                                               "div": 31.01997676157063,
                                               "legacy_clade_membership": {
                                                 "value": "20A"
@@ -4734,13 +4641,6 @@
                                               "country": {
                                                 "value": "India"
                                               },
-                                              "district": {
-                                                "confidence": {
-                                                  "Jhargram": 1.0
-                                                },
-                                                "entropy": -1.000088900581841e-12,
-                                                "value": "Jhargram"
-                                              },
                                               "div": 31.01997676157063,
                                               "legacy_clade_membership": {
                                                 "value": "20A"
@@ -4772,16 +4672,6 @@
                                         "node_attrs": {
                                           "clade_membership": {
                                             "value": "A2a"
-                                          },
-                                          "district": {
-                                            "confidence": {
-                                              "": 0.3466255114354292,
-                                              "Bankura": 0.36682050195169436,
-                                              "Jhargram": 0.2644938541542354,
-                                              "Kolkata": 0.002604178973812497
-                                            },
-                                            "entropy": 1.2255236454527672,
-                                            "value": "Bankura"
                                           },
                                           "div": 31.01997676157063,
                                           "legacy_clade_membership": {
@@ -4834,7 +4724,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "United Kingdom"
+                                                    "value": "Europe"
                                                   },
                                                   "div": 31.019900616009846,
                                                   "legacy_clade_membership": {
@@ -4873,7 +4763,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "United Kingdom"
+                                                    "value": "Europe"
                                                   },
                                                   "div": 31.019900616009846,
                                                   "legacy_clade_membership": {
@@ -4954,7 +4844,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "United Kingdom"
+                                                    "value": "Europe"
                                                   },
                                                   "div": 32.03300562564387,
                                                   "legacy_clade_membership": {
@@ -4993,7 +4883,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "United Kingdom"
+                                                    "value": "Europe"
                                                   },
                                                   "div": 29.02088476534553,
                                                   "legacy_clade_membership": {
@@ -5102,7 +4992,7 @@
                                                 "value": "A2a"
                                               },
                                               "country": {
-                                                "value": "United Kingdom"
+                                                "value": "Europe"
                                               },
                                               "div": 32.02894341675817,
                                               "legacy_clade_membership": {
@@ -5162,7 +5052,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "United Kingdom"
+                                                    "value": "Europe"
                                                   },
                                                   "div": 34.02821403707991,
                                                   "legacy_clade_membership": {
@@ -5201,7 +5091,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "United Kingdom"
+                                                    "value": "Europe"
                                                   },
                                                   "div": 34.02821403707989,
                                                   "legacy_clade_membership": {
@@ -5598,7 +5488,7 @@
                                             "value": "A2a"
                                           },
                                           "country": {
-                                            "value": "Germany"
+                                            "value": "Europe"
                                           },
                                           "div": 29.030548769010206,
                                           "legacy_clade_membership": {
@@ -5718,14 +5608,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Australia"
-                                                  },
-                                                  "district": {
-                                                    "confidence": {
-                                                      "Sydney": 1.0
-                                                    },
-                                                    "entropy": -1.000088900581841e-12,
-                                                    "value": "Sydney"
+                                                    "value": "Oceania"
                                                   },
                                                   "div": 28.027360484109444,
                                                   "legacy_clade_membership": {
@@ -5780,7 +5663,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "USA"
+                                                        "value": "North America"
                                                       },
                                                       "div": 27.027171271548706,
                                                       "legacy_clade_membership": {
@@ -5827,7 +5710,7 @@
                                                             "value": "A2a"
                                                           },
                                                           "country": {
-                                                            "value": "United Kingdom"
+                                                            "value": "Europe"
                                                           },
                                                           "div": 26.019979447265463,
                                                           "legacy_clade_membership": {
@@ -5875,7 +5758,7 @@
                                                                 "value": "A2a"
                                                               },
                                                               "country": {
-                                                                "value": "United Kingdom"
+                                                                "value": "Europe"
                                                               },
                                                               "div": 27.019308044239764,
                                                               "legacy_clade_membership": {
@@ -5914,7 +5797,7 @@
                                                                 "value": "A2a"
                                                               },
                                                               "country": {
-                                                                "value": "United Kingdom"
+                                                                "value": "Europe"
                                                               },
                                                               "div": 27.019308044239764,
                                                               "legacy_clade_membership": {
@@ -6450,14 +6333,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "USA"
-                                                  },
-                                                  "district": {
-                                                    "confidence": {
-                                                      "Santa Clara County": 0.9999999999999999
-                                                    },
-                                                    "entropy": -9.99866855976916e-13,
-                                                    "value": "Santa Clara County"
+                                                    "value": "North America"
                                                   },
                                                   "div": 28.02306711779732,
                                                   "legacy_clade_membership": {
@@ -6622,7 +6498,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "United Kingdom"
+                                                    "value": "Europe"
                                                   },
                                                   "div": 31.04152527643781,
                                                   "legacy_clade_membership": {
@@ -6672,7 +6548,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Australia"
+                                                    "value": "Oceania"
                                                   },
                                                   "div": 28.02620762464003,
                                                   "legacy_clade_membership": {
@@ -6902,7 +6778,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "United Kingdom"
+                                                        "value": "Europe"
                                                       },
                                                       "div": 27.01987599186508,
                                                       "legacy_clade_membership": {
@@ -6941,7 +6817,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "United Kingdom"
+                                                        "value": "Europe"
                                                       },
                                                       "div": 27.01987599186508,
                                                       "legacy_clade_membership": {
@@ -7059,7 +6935,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "United Kingdom"
+                                                        "value": "Europe"
                                                       },
                                                       "div": 29.019897773244058,
                                                       "legacy_clade_membership": {
@@ -7098,7 +6974,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "United Kingdom"
+                                                        "value": "Europe"
                                                       },
                                                       "div": 29.019897773244058,
                                                       "legacy_clade_membership": {
@@ -7191,13 +7067,6 @@
                                                       "country": {
                                                         "value": "India"
                                                       },
-                                                      "district": {
-                                                        "confidence": {
-                                                          "Pune": 1.0
-                                                        },
-                                                        "entropy": -1.000088900581841e-12,
-                                                        "value": "Pune"
-                                                      },
                                                       "div": 29.038417840994775,
                                                       "legacy_clade_membership": {
                                                         "value": "20A"
@@ -7289,7 +7158,7 @@
                                                             "value": "A2a"
                                                           },
                                                           "country": {
-                                                            "value": "United Kingdom"
+                                                            "value": "Europe"
                                                           },
                                                           "div": 26.024028978278682,
                                                           "legacy_clade_membership": {
@@ -9159,7 +9028,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Guadeloupe"
+                                                    "value": "North America"
                                                   },
                                                   "div": 31.028332523847446,
                                                   "legacy_clade_membership": {
@@ -9217,7 +9086,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "Guadeloupe"
+                                                    "value": "North America"
                                                   },
                                                   "div": 33.037183025515986,
                                                   "legacy_clade_membership": {
@@ -9517,7 +9386,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "United Kingdom"
+                                                    "value": "Europe"
                                                   },
                                                   "div": 37.05517886736122,
                                                   "legacy_clade_membership": {
@@ -10830,7 +10699,7 @@
                                                     "value": "A2a"
                                                   },
                                                   "country": {
-                                                    "value": "United Kingdom"
+                                                    "value": "Europe"
                                                   },
                                                   "div": 35.032205776602034,
                                                   "legacy_clade_membership": {
@@ -10902,7 +10771,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "United Kingdom"
+                                                        "value": "Europe"
                                                       },
                                                       "div": 37.027188238832096,
                                                       "legacy_clade_membership": {
@@ -10951,7 +10820,7 @@
                                                         "value": "A2a"
                                                       },
                                                       "country": {
-                                                        "value": "United Kingdom"
+                                                        "value": "Europe"
                                                       },
                                                       "div": 37.026781893661635,
                                                       "legacy_clade_membership": {
@@ -11293,13 +11162,6 @@
                                                               },
                                                               "country": {
                                                                 "value": "India"
-                                                              },
-                                                              "district": {
-                                                                "confidence": {
-                                                                  "Kolkata": 0.9999999999999999
-                                                                },
-                                                                "entropy": -9.99866855976916e-13,
-                                                                "value": "Kolkata"
                                                               },
                                                               "div": 31.024175953473584,
                                                               "legacy_clade_membership": {
@@ -12762,13 +12624,6 @@
                                                               "country": {
                                                                 "value": "India"
                                                               },
-                                                              "district": {
-                                                                "confidence": {
-                                                                  "Howrah": 1.0
-                                                                },
-                                                                "entropy": -1.000088900581841e-12,
-                                                                "value": "Howrah"
-                                                              },
                                                               "div": 34.030655517315935,
                                                               "legacy_clade_membership": {
                                                                 "value": "20A"
@@ -12824,13 +12679,6 @@
                                                               "country": {
                                                                 "value": "India"
                                                               },
-                                                              "district": {
-                                                                "confidence": {
-                                                                  "Paschim Bardhaman": 1.0
-                                                                },
-                                                                "entropy": -1.000088900581841e-12,
-                                                                "value": "Paschim Bardhaman"
-                                                              },
                                                               "div": 32.02203475479794,
                                                               "legacy_clade_membership": {
                                                                 "value": "20A"
@@ -12862,16 +12710,6 @@
                                                         "node_attrs": {
                                                           "clade_membership": {
                                                             "value": "A2a"
-                                                          },
-                                                          "district": {
-                                                            "confidence": {
-                                                              "": 0.3765753492119784,
-                                                              "Howrah": 0.4096991934064197,
-                                                              "Kolkata": 0.00296326757235251,
-                                                              "Paschim Bardhaman": 0.1958905742737586
-                                                            },
-                                                            "entropy": 1.168148281986998,
-                                                            "value": "Howrah"
                                                           },
                                                           "div": 31.018925609737597,
                                                           "legacy_clade_membership": {
@@ -12912,7 +12750,7 @@
                                                                 "value": "A2a"
                                                               },
                                                               "country": {
-                                                                "value": "United Kingdom"
+                                                                "value": "Europe"
                                                               },
                                                               "div": 30.023419274630808,
                                                               "legacy_clade_membership": {
@@ -12956,7 +12794,7 @@
                                                                     "value": "A2a"
                                                                   },
                                                                   "country": {
-                                                                    "value": "United Kingdom"
+                                                                    "value": "Europe"
                                                                   },
                                                                   "div": 29.019942195630854,
                                                                   "legacy_clade_membership": {
@@ -12995,7 +12833,7 @@
                                                                     "value": "A2a"
                                                                   },
                                                                   "country": {
-                                                                    "value": "United Kingdom"
+                                                                    "value": "Europe"
                                                                   },
                                                                   "div": 29.019942195630833,
                                                                   "legacy_clade_membership": {
@@ -13424,13 +13262,6 @@
                                                                       "country": {
                                                                         "value": "India"
                                                                       },
-                                                                      "district": {
-                                                                        "confidence": {
-                                                                          "Howrah": 1.0
-                                                                        },
-                                                                        "entropy": -1.000088900581841e-12,
-                                                                        "value": "Howrah"
-                                                                      },
                                                                       "div": 35.02585997622465,
                                                                       "legacy_clade_membership": {
                                                                         "value": "20A"
@@ -13493,7 +13324,7 @@
                                                                             "value": "A2a"
                                                                           },
                                                                           "country": {
-                                                                            "value": "United Kingdom"
+                                                                            "value": "Europe"
                                                                           },
                                                                           "div": 35.02653694131483,
                                                                           "legacy_clade_membership": {
@@ -13541,7 +13372,7 @@
                                                                                 "value": "A2a"
                                                                               },
                                                                               "country": {
-                                                                                "value": "United Kingdom"
+                                                                                "value": "Europe"
                                                                               },
                                                                               "div": 34.02234734141665,
                                                                               "legacy_clade_membership": {
@@ -13595,7 +13426,7 @@
                                                                                     "value": "A2a"
                                                                                   },
                                                                                   "country": {
-                                                                                    "value": "United Kingdom"
+                                                                                    "value": "Europe"
                                                                                   },
                                                                                   "div": 34.02253237437727,
                                                                                   "legacy_clade_membership": {
@@ -13639,7 +13470,7 @@
                                                                                         "value": "A2a"
                                                                                       },
                                                                                       "country": {
-                                                                                        "value": "United Kingdom"
+                                                                                        "value": "Europe"
                                                                                       },
                                                                                       "div": 33.01858222592657,
                                                                                       "legacy_clade_membership": {
@@ -13678,7 +13509,7 @@
                                                                                         "value": "A2a"
                                                                                       },
                                                                                       "country": {
-                                                                                        "value": "United Kingdom"
+                                                                                        "value": "Europe"
                                                                                       },
                                                                                       "div": 33.01858222592657,
                                                                                       "legacy_clade_membership": {
@@ -14034,7 +13865,7 @@
                                                                 "value": "A2a"
                                                               },
                                                               "country": {
-                                                                "value": "New Zealand"
+                                                                "value": "Oceania"
                                                               },
                                                               "div": 30.024373409355583,
                                                               "legacy_clade_membership": {
@@ -14432,7 +14263,7 @@
                                                             "value": "A2a"
                                                           },
                                                           "country": {
-                                                            "value": "United Kingdom"
+                                                            "value": "Europe"
                                                           },
                                                           "div": 36.064459572401894,
                                                           "legacy_clade_membership": {
@@ -14507,13 +14338,6 @@
                                                                   "country": {
                                                                     "value": "India"
                                                                   },
-                                                                  "district": {
-                                                                    "confidence": {
-                                                                      "Kolkata": 1.0
-                                                                    },
-                                                                    "entropy": -1.000088900581841e-12,
-                                                                    "value": "Kolkata"
-                                                                  },
                                                                   "div": 33.02075402593139,
                                                                   "legacy_clade_membership": {
                                                                     "value": "20A"
@@ -14559,13 +14383,6 @@
                                                                   "country": {
                                                                     "value": "India"
                                                                   },
-                                                                  "district": {
-                                                                    "confidence": {
-                                                                      "North 24 Parganas": 1.0
-                                                                    },
-                                                                    "entropy": -1.000088900581841e-12,
-                                                                    "value": "North 24 Parganas"
-                                                                  },
                                                                   "div": 33.02075402593139,
                                                                   "legacy_clade_membership": {
                                                                     "value": "20A"
@@ -14597,16 +14414,6 @@
                                                             "node_attrs": {
                                                               "clade_membership": {
                                                                 "value": "A2a"
-                                                              },
-                                                              "district": {
-                                                                "confidence": {
-                                                                  "": 0.3784333591823085,
-                                                                  "Howrah": 0.0027276813993711083,
-                                                                  "Kolkata": 0.4138358470395773,
-                                                                  "North 24 Parganas": 0.19083517383096696
-                                                                },
-                                                                "entropy": 1.1592874398379054,
-                                                                "value": "Kolkata"
                                                               },
                                                               "div": 33.02075402593139,
                                                               "legacy_clade_membership": {
@@ -14726,7 +14533,7 @@
                                                                         "value": "A2a"
                                                                       },
                                                                       "country": {
-                                                                        "value": "United Kingdom"
+                                                                        "value": "Europe"
                                                                       },
                                                                       "div": 32.04862109292869,
                                                                       "legacy_clade_membership": {
@@ -14842,7 +14649,7 @@
                                                                                     "value": "A2a"
                                                                                   },
                                                                                   "country": {
-                                                                                    "value": "United Kingdom"
+                                                                                    "value": "Europe"
                                                                                   },
                                                                                   "div": 31.01958568305066,
                                                                                   "legacy_clade_membership": {
@@ -14881,7 +14688,7 @@
                                                                                     "value": "A2a"
                                                                                   },
                                                                                   "country": {
-                                                                                    "value": "United Kingdom"
+                                                                                    "value": "Europe"
                                                                                   },
                                                                                   "div": 31.01958568305066,
                                                                                   "legacy_clade_membership": {
@@ -14920,7 +14727,7 @@
                                                                                     "value": "A2a"
                                                                                   },
                                                                                   "country": {
-                                                                                    "value": "United Kingdom"
+                                                                                    "value": "Europe"
                                                                                   },
                                                                                   "div": 31.01958568305066,
                                                                                   "legacy_clade_membership": {
@@ -15011,7 +14818,7 @@
                                                                                         "value": "A2a"
                                                                                       },
                                                                                       "country": {
-                                                                                        "value": "United Kingdom"
+                                                                                        "value": "Europe"
                                                                                       },
                                                                                       "div": 30.024032338121586,
                                                                                       "legacy_clade_membership": {
@@ -15069,13 +14876,6 @@
                                                                                       },
                                                                                       "country": {
                                                                                         "value": "India"
-                                                                                      },
-                                                                                      "district": {
-                                                                                        "confidence": {
-                                                                                          "Kolkata": 1.0
-                                                                                        },
-                                                                                        "entropy": -1.000088900581841e-12,
-                                                                                        "value": "Kolkata"
                                                                                       },
                                                                                       "div": 32.032865203572875,
                                                                                       "legacy_clade_membership": {
@@ -15165,7 +14965,7 @@
                                                                                                 "value": "A2a"
                                                                                               },
                                                                                               "country": {
-                                                                                                "value": "United Kingdom"
+                                                                                                "value": "Europe"
                                                                                               },
                                                                                               "div": 30.019728901258812,
                                                                                               "legacy_clade_membership": {
@@ -15204,7 +15004,7 @@
                                                                                                 "value": "A2a"
                                                                                               },
                                                                                               "country": {
-                                                                                                "value": "United Kingdom"
+                                                                                                "value": "Europe"
                                                                                               },
                                                                                               "div": 30.019728901258812,
                                                                                               "legacy_clade_membership": {
@@ -15290,14 +15090,7 @@
                                                                                                     "value": "A2a"
                                                                                                   },
                                                                                                   "country": {
-                                                                                                    "value": "USA"
-                                                                                                  },
-                                                                                                  "district": {
-                                                                                                    "confidence": {
-                                                                                                      "Manhattan": 1.0
-                                                                                                    },
-                                                                                                    "entropy": -1.000088900581841e-12,
-                                                                                                    "value": "Manhattan"
+                                                                                                    "value": "North America"
                                                                                                   },
                                                                                                   "div": 31.034705502226153,
                                                                                                   "legacy_clade_membership": {
@@ -15408,7 +15201,7 @@
                                                                                                         "value": "A2a"
                                                                                                       },
                                                                                                       "country": {
-                                                                                                        "value": "United Kingdom"
+                                                                                                        "value": "Europe"
                                                                                                       },
                                                                                                       "div": 30.023485846260932,
                                                                                                       "legacy_clade_membership": {
@@ -15521,7 +15314,7 @@
                                                                                                     "value": "A2a"
                                                                                                   },
                                                                                                   "country": {
-                                                                                                    "value": "United Kingdom"
+                                                                                                    "value": "Europe"
                                                                                                   },
                                                                                                   "div": 33.02659544761878,
                                                                                                   "legacy_clade_membership": {
@@ -15590,13 +15383,6 @@
                                                                                                       "country": {
                                                                                                         "value": "India"
                                                                                                       },
-                                                                                                      "district": {
-                                                                                                        "confidence": {
-                                                                                                          "Howrah": 0.9999999999999999
-                                                                                                        },
-                                                                                                        "entropy": -9.99866855976916e-13,
-                                                                                                        "value": "Howrah"
-                                                                                                      },
                                                                                                       "div": 36.02540754877693,
                                                                                                       "legacy_clade_membership": {
                                                                                                         "value": "20A"
@@ -15641,13 +15427,6 @@
                                                                                                       },
                                                                                                       "country": {
                                                                                                         "value": "India"
-                                                                                                      },
-                                                                                                      "district": {
-                                                                                                        "confidence": {
-                                                                                                          "Kolkata": 1.0
-                                                                                                        },
-                                                                                                        "entropy": -1.000088900581841e-12,
-                                                                                                        "value": "Kolkata"
                                                                                                       },
                                                                                                       "div": 34.01810159682401,
                                                                                                       "legacy_clade_membership": {
@@ -15704,13 +15483,6 @@
                                                                                                       "country": {
                                                                                                         "value": "India"
                                                                                                       },
-                                                                                                      "district": {
-                                                                                                        "confidence": {
-                                                                                                          "Howrah": 0.9999999999999999
-                                                                                                        },
-                                                                                                        "entropy": -9.99866855976916e-13,
-                                                                                                        "value": "Howrah"
-                                                                                                      },
                                                                                                       "div": 35.02468978533094,
                                                                                                       "legacy_clade_membership": {
                                                                                                         "value": "20A"
@@ -15742,15 +15514,6 @@
                                                                                                 "node_attrs": {
                                                                                                   "clade_membership": {
                                                                                                     "value": "A2a"
-                                                                                                  },
-                                                                                                  "district": {
-                                                                                                    "confidence": {
-                                                                                                      "": 0.02598028555624359,
-                                                                                                      "Howrah": 0.965114383462051,
-                                                                                                      "Kolkata": 0.008690241420305245
-                                                                                                    },
-                                                                                                    "entropy": 0.1726967503029973,
-                                                                                                    "value": "Howrah"
                                                                                                   },
                                                                                                   "div": 34.01810159682401,
                                                                                                   "legacy_clade_membership": {
@@ -15866,7 +15629,7 @@
                                                                                             "value": "A2a"
                                                                                           },
                                                                                           "country": {
-                                                                                            "value": "Australia"
+                                                                                            "value": "Oceania"
                                                                                           },
                                                                                           "div": 31.04764206612702,
                                                                                           "legacy_clade_membership": {
@@ -15934,7 +15697,7 @@
                                                                                                         "value": "A2a"
                                                                                                       },
                                                                                                       "country": {
-                                                                                                        "value": "United Kingdom"
+                                                                                                        "value": "Europe"
                                                                                                       },
                                                                                                       "div": 30.020554903954434,
                                                                                                       "legacy_clade_membership": {
@@ -15973,7 +15736,7 @@
                                                                                                         "value": "A2a"
                                                                                                       },
                                                                                                       "country": {
-                                                                                                        "value": "United Kingdom"
+                                                                                                        "value": "Europe"
                                                                                                       },
                                                                                                       "div": 30.020554903954434,
                                                                                                       "legacy_clade_membership": {
@@ -16055,7 +15818,7 @@
                                                                                                             "value": "A2a"
                                                                                                           },
                                                                                                           "country": {
-                                                                                                            "value": "United Kingdom"
+                                                                                                            "value": "Europe"
                                                                                                           },
                                                                                                           "div": 30.019801884634603,
                                                                                                           "legacy_clade_membership": {
@@ -16094,7 +15857,7 @@
                                                                                                             "value": "A2a"
                                                                                                           },
                                                                                                           "country": {
-                                                                                                            "value": "United Kingdom"
+                                                                                                            "value": "Europe"
                                                                                                           },
                                                                                                           "div": 30.019801884634603,
                                                                                                           "legacy_clade_membership": {
@@ -16174,7 +15937,7 @@
                                                                                                             "value": "A2a"
                                                                                                           },
                                                                                                           "country": {
-                                                                                                            "value": "United Kingdom"
+                                                                                                            "value": "Europe"
                                                                                                           },
                                                                                                           "div": 30.02813172802494,
                                                                                                           "legacy_clade_membership": {
@@ -16335,14 +16098,7 @@
                                                                                                                 "value": "A2a"
                                                                                                               },
                                                                                                               "country": {
-                                                                                                                "value": "USA"
-                                                                                                              },
-                                                                                                              "district": {
-                                                                                                                "confidence": {
-                                                                                                                  "New York City": 1.0
-                                                                                                                },
-                                                                                                                "entropy": -1.000088900581841e-12,
-                                                                                                                "value": "New York City"
+                                                                                                                "value": "North America"
                                                                                                               },
                                                                                                               "div": 31.032451958302588,
                                                                                                               "legacy_clade_membership": {
@@ -16389,13 +16145,6 @@
                                                                                                               "country": {
                                                                                                                 "value": "India"
                                                                                                               },
-                                                                                                              "district": {
-                                                                                                                "confidence": {
-                                                                                                                  "Howrah": 1.0
-                                                                                                                },
-                                                                                                                "entropy": -1.000088900581841e-12,
-                                                                                                                "value": "Howrah"
-                                                                                                              },
                                                                                                               "div": 29.019918189484017,
                                                                                                               "legacy_clade_membership": {
                                                                                                                 "value": "20A"
@@ -16427,16 +16176,6 @@
                                                                                                         "node_attrs": {
                                                                                                           "clade_membership": {
                                                                                                             "value": "A2a"
-                                                                                                          },
-                                                                                                          "district": {
-                                                                                                            "confidence": {
-                                                                                                              "": 0.3765743882032254,
-                                                                                                              "Howrah": 0.4096999348966512,
-                                                                                                              "Kolkata": 0.002963274426687702,
-                                                                                                              "New York City": 0.1958907663667816
-                                                                                                            },
-                                                                                                            "entropy": 1.168148493661227,
-                                                                                                            "value": "Howrah"
                                                                                                           },
                                                                                                           "div": 29.019918189484017,
                                                                                                           "legacy_clade_membership": {
@@ -17583,16 +17322,6 @@
     "node_attrs": {
       "clade_membership": {
         "value": "unassigned"
-      },
-      "district": {
-        "confidence": {
-          "": 0.46471426745839894,
-          "Howrah": 0.0051218787217061894,
-          "Kolkata": 0.005424323961527263,
-          "Wuhan": 0.48529042959486807
-        },
-        "entropy": 0.9843226626297946,
-        "value": "Wuhan"
       },
       "div": 0,
       "legacy_clade_membership": {
