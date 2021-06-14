@@ -133,9 +133,9 @@
         "type": "continuous"
       },
       {
-        "key": "logistic_growth",
-        "title": "Logistic growth",
-        "type": "continuous"
+        "key": "emerging_lineage",
+        "title": "Emerging Lineage",
+        "type": "categorical"
       },
       {
         "key": "recency",
@@ -143,9 +143,9 @@
         "type": "categorical"
       },
       {
-        "key": "emerging_lineage",
-        "title": "Emerging Lineage",
-        "type": "categorical"
+        "key": "logistic_growth",
+        "title": "Logistic growth",
+        "type": "continuous"
       }
     ],
     "description": "This work is made possible by the open sharing of genetic data by research groups from all over the world. We gratefully acknowledge their contributions.\n\n",
@@ -269,25 +269,9 @@
             "latitude": 40.745,
             "longitude": -123.8695
           },
-          "Jalgaon": {
-            "latitude": 20.84351185,
-            "longitude": 75.52592658756026
-          },
-          "Mumbai": {
-            "latitude": 19.0759899,
-            "longitude": 72.8773928
-          },
           "New York City": {
             "latitude": 40.695065,
             "longitude": -73.993461
-          },
-          "Ratnagiri": {
-            "latitude": 17.282607900000002,
-            "longitude": 73.4569787039826
-          },
-          "Thane": {
-            "latitude": 19.1943294,
-            "longitude": 72.9701779
           },
           "Tirupati": {
             "latitude": 13.6316368,
@@ -485,9 +469,9 @@
     "panels": [
       "tree",
       "map",
-      "entropy","frequencies"
+      "entropy"
     ],
-    "title": "Genomic epidemiology of AY.1 (Delta+K417N) Lineage of SARS-CoV-2",
+    "title": "Genomic epidemiology of AY.1 lineage of SARS-CoV-2",
     "updated": "2021-06-14"
   },
   "tree": {
@@ -718,9 +702,6 @@
                   "emerging_lineage": {
                     "value": "B.1.617.2 (Delta)"
                   },
-                  "location": {
-                    "value": "Thane"
-                  },
                   "num_date": {
                     "confidence": [
                       2021.2424657534248,
@@ -870,9 +851,6 @@
                       "emerging_lineage": {
                         "value": "B.1.617.2 (Delta)"
                       },
-                      "location": {
-                        "value": "Palakkad"
-                      },
                       "num_date": {
                         "confidence": [
                           2021.2917808219179,
@@ -950,9 +928,6 @@
                           "host": {
                             "value": "human"
                           },
-                          "location": {
-                            "value": "Jalgaon"
-                          },
                           "num_date": {
                             "confidence": [
                               2021.3602739726027,
@@ -1017,9 +992,6 @@
                               "host": {
                                 "value": "human"
                               },
-                              "location": {
-                                "value": "Jalgaon"
-                              },
                               "num_date": {
                                 "confidence": [
                                   2021.3602739726027,
@@ -1081,9 +1053,6 @@
                                       "host": {
                                         "value": "human"
                                       },
-                                      "location": {
-                                        "value": "Jalgaon"
-                                      },
                                       "num_date": {
                                         "confidence": [
                                           2021.3602739726027,
@@ -1134,9 +1103,6 @@
                                       },
                                       "host": {
                                         "value": "human"
-                                      },
-                                      "location": {
-                                        "value": "Jalgaon"
                                       },
                                       "num_date": {
                                         "confidence": [
@@ -1223,9 +1189,6 @@
                                       "host": {
                                         "value": "human"
                                       },
-                                      "location": {
-                                        "value": "Jalgaon"
-                                      },
                                       "num_date": {
                                         "confidence": [
                                           2021.3602739726027,
@@ -1282,9 +1245,6 @@
                                           "host": {
                                             "value": "human"
                                           },
-                                          "location": {
-                                            "value": "Jalgaon"
-                                          },
                                           "num_date": {
                                             "confidence": [
                                               2021.3575342465754,
@@ -1335,9 +1295,6 @@
                                           },
                                           "host": {
                                             "value": "human"
-                                          },
-                                          "location": {
-                                            "value": "Jalgaon"
                                           },
                                           "num_date": {
                                             "confidence": [
@@ -5598,9 +5555,6 @@
                           "host": {
                             "value": "human"
                           },
-                          "location": {
-                            "value": "Ratnagiri"
-                          },
                           "logistic_growth": {
                             "value": -11.695207476043496
                           },
@@ -5651,9 +5605,6 @@
                           },
                           "host": {
                             "value": "human"
-                          },
-                          "location": {
-                            "value": "Ratnagiri"
                           },
                           "logistic_growth": {
                             "value": -11.695207476043496
@@ -7675,9 +7626,6 @@
                               "emerging_lineage": {
                                 "value": "B.1.617.2 (Delta)"
                               },
-                              "location": {
-                                "value": "Thane"
-                              },
                               "logistic_growth": {
                                 "value": -7.990556357386143
                               },
@@ -7746,9 +7694,6 @@
                               },
                               "emerging_lineage": {
                                 "value": "B.1.617.2 (Delta)"
-                              },
-                              "location": {
-                                "value": "Mumbai"
                               },
                               "logistic_growth": {
                                 "value": -7.990556357386143
@@ -7908,9 +7853,6 @@
                               },
                               "emerging_lineage": {
                                 "value": "B.1.617.2 (Delta)"
-                              },
-                              "location": {
-                                "value": "Palgarh"
                               },
                               "logistic_growth": {
                                 "value": -7.990556357386143
@@ -8568,9 +8510,6 @@
                                       "emerging_lineage": {
                                         "value": "B.1.617.2 (Delta)"
                                       },
-                                      "location": {
-                                        "value": "Ratnagiri"
-                                      },
                                       "logistic_growth": {
                                         "value": -7.990556357386143
                                       },
@@ -8644,9 +8583,6 @@
                                           "host": {
                                             "value": "human"
                                           },
-                                          "location": {
-                                            "value": "Ratnagiri"
-                                          },
                                           "logistic_growth": {
                                             "value": -7.990556357386143
                                           },
@@ -8694,9 +8630,6 @@
                                           },
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
-                                          },
-                                          "location": {
-                                            "value": "Ratnagiri"
                                           },
                                           "logistic_growth": {
                                             "value": -7.990556357386143
@@ -8836,9 +8769,6 @@
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
                                           },
-                                          "location": {
-                                            "value": "Ratnagiri"
-                                          },
                                           "logistic_growth": {
                                             "value": -7.990556357386143
                                           },
@@ -8892,9 +8822,6 @@
                                           },
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
-                                          },
-                                          "location": {
-                                            "value": "Ratnagiri"
                                           },
                                           "logistic_growth": {
                                             "value": -7.990556357386143
@@ -8987,9 +8914,6 @@
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
                                           },
-                                          "location": {
-                                            "value": "Ratnagiri"
-                                          },
                                           "logistic_growth": {
                                             "value": -7.990556357386143
                                           },
@@ -9043,9 +8967,6 @@
                                           },
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
-                                          },
-                                          "location": {
-                                            "value": "Ratnagiri"
                                           },
                                           "logistic_growth": {
                                             "value": -7.990556357386143
