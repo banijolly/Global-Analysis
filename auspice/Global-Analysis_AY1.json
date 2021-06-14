@@ -676,7 +676,7 @@
                     ]
                   }
                 },
-                "name": "GSEQ_1982",
+                "name": "GS1",
                 "node_attrs": {
                   "author": {
                     "author": "?",
@@ -825,7 +825,7 @@
                         ]
                       }
                     },
-                    "name": "COR_57747",
+                    "name": "CR1",
                     "node_attrs": {
                       "author": {
                         "author": "?",
@@ -899,7 +899,7 @@
                         "branch_attrs": {
                           "mutations": {}
                         },
-                        "name": "GMCJRT204401",
+                        "name": "G1",
                         "node_attrs": {
                           "author": {
                             "author": "?",
@@ -963,7 +963,7 @@
                                 ]
                               }
                             },
-                            "name": "GMCJRT204407",
+                            "name": "G2",
                             "node_attrs": {
                               "author": {
                                 "author": "?",
@@ -1024,7 +1024,7 @@
                                     "branch_attrs": {
                                       "mutations": {}
                                     },
-                                    "name": "GMCJRT204421",
+                                    "name": "G3",
                                     "node_attrs": {
                                       "author": {
                                         "author": "?",
@@ -1075,7 +1075,7 @@
                                     "branch_attrs": {
                                       "mutations": {}
                                     },
-                                    "name": "GMCJRT204375",
+                                    "name": "G4",
                                     "node_attrs": {
                                       "author": {
                                         "author": "?",
@@ -1160,7 +1160,7 @@
                                     "branch_attrs": {
                                       "mutations": {}
                                     },
-                                    "name": "GMCJRT204396",
+                                    "name": "G5",
                                     "node_attrs": {
                                       "author": {
                                         "author": "?",
@@ -1216,7 +1216,7 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "name": "GMCJRT204398",
+                                        "name": "G6",
                                         "node_attrs": {
                                           "author": {
                                             "author": "?",
@@ -1267,7 +1267,7 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "name": "GMCJRT204415",
+                                        "name": "G7",
                                         "node_attrs": {
                                           "author": {
                                             "author": "?",
@@ -5526,7 +5526,7 @@
                         "branch_attrs": {
                           "mutations": {}
                         },
-                        "name": "CDHRAT119585",
+                        "name": "CD1",
                         "node_attrs": {
                           "author": {
                             "author": "?",
@@ -5577,7 +5577,7 @@
                         "branch_attrs": {
                           "mutations": {}
                         },
-                        "name": "CDHRAT119586",
+                        "name": "CD2",
                         "node_attrs": {
                           "author": {
                             "author": "?",
@@ -7600,7 +7600,7 @@
                                 ]
                               }
                             },
-                            "name": "W123",
+                            "name": "W1",
                             "node_attrs": {
                               "author": {
                                 "author": "?",
@@ -7669,7 +7669,7 @@
                                 ]
                               }
                             },
-                            "name": "11219290001131",
+                            "name": "1",
                             "node_attrs": {
                               "author": {
                                 "author": "?",
@@ -7828,7 +7828,7 @@
                                 ]
                               }
                             },
-                            "name": "M27038",
+                            "name": "M1",
                             "node_attrs": {
                               "author": {
                                 "author": "?",
@@ -8484,7 +8484,7 @@
                                         ]
                                       }
                                     },
-                                    "name": "GHRCov78949",
+                                    "name": "G1",
                                     "node_attrs": {
                                       "author": {
                                         "author": "?",
@@ -8554,7 +8554,7 @@
                                             ]
                                           }
                                         },
-                                        "name": "CDHRAT120802",
+                                        "name": "CD3",
                                         "node_attrs": {
                                           "author": {
                                             "author": "?",
@@ -8605,7 +8605,7 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "name": "GHRCov78283",
+                                        "name": "G2",
                                         "node_attrs": {
                                           "author": {
                                             "author": "?",
@@ -8743,7 +8743,7 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "name": "GHRCov78712",
+                                        "name": "G3",
                                         "node_attrs": {
                                           "author": {
                                             "author": "?",
@@ -8797,7 +8797,7 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "name": "GHRCov78721",
+                                        "name": "G4",
                                         "node_attrs": {
                                           "author": {
                                             "author": "?",
@@ -8888,7 +8888,7 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "name": "GHRCov78723",
+                                        "name": "G5",
                                         "node_attrs": {
                                           "author": {
                                             "author": "?",
@@ -8942,7 +8942,7 @@
                                         "branch_attrs": {
                                           "mutations": {}
                                         },
-                                        "name": "GHRCov78713",
+                                        "name": "G6",
                                         "node_attrs": {
                                           "author": {
                                             "author": "?",
