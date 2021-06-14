@@ -41,7 +41,7 @@
         "key": "division",
         "scale": [
           [
-            "Kerala",
+            "XX",
             "#4272CE"
           ],
           [
@@ -57,7 +57,7 @@
             "#AEBD50"
           ],
           [
-            "Maharashtra",
+            "XX",
             "#D8AE3E"
           ],
           [
@@ -334,11 +334,11 @@
             "latitude": 27.712907,
             "longitude": 85.323557
           },
-          "Kerala": {
+          "XX": {
             "latitude": 10.359825,
             "longitude": 76.39955
           },
-          "Maharashtra": {
+          "XX": {
             "latitude": 19.7515,
             "longitude": 75.7139
           },
@@ -694,10 +694,10 @@
                   "div": 35,
                   "division": {
                     "confidence": {
-                      "Maharashtra": 0.9999999999999999
+                      "XX": 0.9999999999999999
                     },
                     "entropy": -9.99866855976916e-13,
-                    "value": "Maharashtra"
+                    "value": "XX"
                   },
                   "emerging_lineage": {
                     "value": "B.1.617.2 (Delta)"
@@ -843,10 +843,10 @@
                       "div": 34,
                       "division": {
                         "confidence": {
-                          "Kerala": 1.0
+                          "XX": 1.0
                         },
                         "entropy": -1.000088900581841e-12,
-                        "value": "Kerala"
+                        "value": "XX"
                       },
                       "emerging_lineage": {
                         "value": "B.1.617.2 (Delta)"
@@ -917,10 +917,10 @@
                           "div": 35,
                           "division": {
                             "confidence": {
-                              "Maharashtra": 0.9999999999999999
+                              "XX": 0.9999999999999999
                             },
                             "entropy": -9.99866855976916e-13,
-                            "value": "Maharashtra"
+                            "value": "XX"
                           },
                           "emerging_lineage": {
                             "value": "B.1.617.2 (Delta)"
@@ -981,10 +981,10 @@
                               "div": 37,
                               "division": {
                                 "confidence": {
-                                  "Maharashtra": 1.0
+                                  "XX": 1.0
                                 },
                                 "entropy": -1.000088900581841e-12,
-                                "value": "Maharashtra"
+                                "value": "XX"
                               },
                               "emerging_lineage": {
                                 "value": "B.1.617.2 (Delta)"
@@ -1042,10 +1042,10 @@
                                       "div": 36,
                                       "division": {
                                         "confidence": {
-                                          "Maharashtra": 1.0
+                                          "XX": 1.0
                                         },
                                         "entropy": -1.000088900581841e-12,
-                                        "value": "Maharashtra"
+                                        "value": "XX"
                                       },
                                       "emerging_lineage": {
                                         "value": "B.1.617.2 (Delta)"
@@ -1093,10 +1093,10 @@
                                       "div": 36,
                                       "division": {
                                         "confidence": {
-                                          "Maharashtra": 1.0
+                                          "XX": 1.0
                                         },
                                         "entropy": -1.000088900581841e-12,
-                                        "value": "Maharashtra"
+                                        "value": "XX"
                                       },
                                       "emerging_lineage": {
                                         "value": "B.1.617.2 (Delta)"
@@ -1134,10 +1134,10 @@
                                   "div": 36,
                                   "division": {
                                     "confidence": {
-                                      "Maharashtra": 0.9999148985245724
+                                      "XX": 0.9999148985245724
                                     },
                                     "entropy": 0.0011537841378455236,
-                                    "value": "Maharashtra"
+                                    "value": "XX"
                                   },
                                   "emerging_lineage": {
                                     "value": "B.1.617.2 (Delta)"
@@ -1178,10 +1178,10 @@
                                       "div": 36,
                                       "division": {
                                         "confidence": {
-                                          "Maharashtra": 1.0
+                                          "XX": 1.0
                                         },
                                         "entropy": -1.000088900581841e-12,
-                                        "value": "Maharashtra"
+                                        "value": "XX"
                                       },
                                       "emerging_lineage": {
                                         "value": "B.1.617.2 (Delta)"
@@ -1234,10 +1234,10 @@
                                           "div": 36,
                                           "division": {
                                             "confidence": {
-                                              "Maharashtra": 1.0
+                                              "XX": 1.0
                                             },
                                             "entropy": -1.000088900581841e-12,
-                                            "value": "Maharashtra"
+                                            "value": "XX"
                                           },
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
@@ -1285,10 +1285,10 @@
                                           "div": 36,
                                           "division": {
                                             "confidence": {
-                                              "Maharashtra": 1.0
+                                              "XX": 1.0
                                             },
                                             "entropy": -1.000088900581841e-12,
-                                            "value": "Maharashtra"
+                                            "value": "XX"
                                           },
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
@@ -1326,10 +1326,10 @@
                                       "div": 36,
                                       "division": {
                                         "confidence": {
-                                          "Maharashtra": 0.999914937597119
+                                          "XX": 0.999914937597119
                                         },
                                         "entropy": 0.0011532968463517585,
-                                        "value": "Maharashtra"
+                                        "value": "XX"
                                       },
                                       "emerging_lineage": {
                                         "value": "B.1.617.2 (Delta)"
@@ -1355,10 +1355,10 @@
                                   "div": 36,
                                   "division": {
                                     "confidence": {
-                                      "Maharashtra": 0.9999131941890498
+                                      "XX": 0.9999131941890498
                                     },
                                     "entropy": 0.0011750941880002389,
-                                    "value": "Maharashtra"
+                                    "value": "XX"
                                   },
                                   "emerging_lineage": {
                                     "value": "B.1.617.2 (Delta)"
@@ -1384,10 +1384,10 @@
                               "div": 36,
                               "division": {
                                 "confidence": {
-                                  "Maharashtra": 0.9999112230050736
+                                  "XX": 0.9999112230050736
                                 },
                                 "entropy": 0.0011996640070402402,
-                                "value": "Maharashtra"
+                                "value": "XX"
                               },
                               "emerging_lineage": {
                                 "value": "B.1.617.2 (Delta)"
@@ -1413,10 +1413,10 @@
                           "div": 36,
                           "division": {
                             "confidence": {
-                              "Maharashtra": 0.999901889069727
+                              "XX": 0.999901889069727
                             },
                             "entropy": 0.0013116904059412061,
-                            "value": "Maharashtra"
+                            "value": "XX"
                           },
                           "emerging_lineage": {
                             "value": "B.1.617.2 (Delta)"
@@ -1442,10 +1442,10 @@
                       "div": 35,
                       "division": {
                         "confidence": {
-                          "Maharashtra": 0.999370209939756
+                          "XX": 0.999370209939756
                         },
                         "entropy": 0.006566104908968102,
-                        "value": "Maharashtra"
+                        "value": "XX"
                       },
                       "emerging_lineage": {
                         "value": "B.1.617.2 (Delta)"
@@ -1471,11 +1471,11 @@
                   "div": 32,
                   "division": {
                     "confidence": {
-                      "Kerala": 0.019909930551894613,
-                      "Maharashtra": 0.9739743335353835
+                      "XX": 0.019909930551894613,
+                      "XX": 0.9739743335353835
                     },
                     "entropy": 0.15315701671544554,
-                    "value": "Maharashtra"
+                    "value": "XX"
                   },
                   "emerging_lineage": {
                     "value": "B.1.617.2 (Delta)"
@@ -5324,10 +5324,10 @@
                 "confidence": {
                   "California": 0.002547928248099647,
                   "Karnataka": 0.0026593026273194482,
-                  "Maharashtra": 0.9927152535845785
+                  "XX": 0.9927152535845785
                 },
                 "entropy": 0.05544281910372304,
-                "value": "Maharashtra"
+                "value": "XX"
               },
               "emerging_lineage": {
                 "value": "B.1.617.2 (Delta)"
@@ -5544,10 +5544,10 @@
                           "div": 44,
                           "division": {
                             "confidence": {
-                              "Maharashtra": 1.0
+                              "XX": 1.0
                             },
                             "entropy": -1.000088900581841e-12,
-                            "value": "Maharashtra"
+                            "value": "XX"
                           },
                           "emerging_lineage": {
                             "value": "B.1.617.2 (Delta)"
@@ -5595,10 +5595,10 @@
                           "div": 44,
                           "division": {
                             "confidence": {
-                              "Maharashtra": 1.0
+                              "XX": 1.0
                             },
                             "entropy": -1.000088900581841e-12,
-                            "value": "Maharashtra"
+                            "value": "XX"
                           },
                           "emerging_lineage": {
                             "value": "B.1.617.2 (Delta)"
@@ -5636,10 +5636,10 @@
                       "div": 44,
                       "division": {
                         "confidence": {
-                          "Maharashtra": 0.9998669813219491
+                          "XX": 0.9998669813219491
                         },
                         "entropy": 0.0017066197390976667,
-                        "value": "Maharashtra"
+                        "value": "XX"
                       },
                       "emerging_lineage": {
                         "value": "B.1.617.2 (Delta)"
@@ -5863,7 +5863,7 @@
                       "div": 36,
                       "division": {
                         "confidence": {
-                          "Maharashtra": 0.016464690416754763,
+                          "XX": 0.016464690416754763,
                           "Tamil Nadu": 0.9802621695091163
                         },
                         "entropy": 0.11661905727282984,
@@ -5957,10 +5957,10 @@
                           "div": 39,
                           "division": {
                             "confidence": {
-                              "Maharashtra": 1.0
+                              "XX": 1.0
                             },
                             "entropy": -1.000088900581841e-12,
-                            "value": "Maharashtra"
+                            "value": "XX"
                           },
                           "emerging_lineage": {
                             "value": "B.1.617.2 (Delta)"
@@ -7544,11 +7544,11 @@
                             "confidence": {
                               "": 0.2940388884237194,
                               "California": 0.01409872178624512,
-                              "Maharashtra": 0.347607540206961,
+                              "XX": 0.347607540206961,
                               "Odisha": 0.2668402477821638
                             },
                             "entropy": 1.58094194341155,
-                            "value": "Maharashtra"
+                            "value": "XX"
                           },
                           "emerging_lineage": {
                             "value": "B.1.617.2 (Delta)"
@@ -7618,10 +7618,10 @@
                               "div": 42,
                               "division": {
                                 "confidence": {
-                                  "Maharashtra": 1.0
+                                  "XX": 1.0
                                 },
                                 "entropy": -1.000088900581841e-12,
-                                "value": "Maharashtra"
+                                "value": "XX"
                               },
                               "emerging_lineage": {
                                 "value": "B.1.617.2 (Delta)"
@@ -7687,10 +7687,10 @@
                               "div": 43,
                               "division": {
                                 "confidence": {
-                                  "Maharashtra": 1.0
+                                  "XX": 1.0
                                 },
                                 "entropy": -1.000088900581841e-12,
-                                "value": "Maharashtra"
+                                "value": "XX"
                               },
                               "emerging_lineage": {
                                 "value": "B.1.617.2 (Delta)"
@@ -7846,10 +7846,10 @@
                               "div": 44,
                               "division": {
                                 "confidence": {
-                                  "Maharashtra": 1.0
+                                  "XX": 1.0
                                 },
                                 "entropy": -1.000088900581841e-12,
-                                "value": "Maharashtra"
+                                "value": "XX"
                               },
                               "emerging_lineage": {
                                 "value": "B.1.617.2 (Delta)"
@@ -8502,10 +8502,10 @@
                                       "div": 41,
                                       "division": {
                                         "confidence": {
-                                          "Maharashtra": 1.0
+                                          "XX": 1.0
                                         },
                                         "entropy": -1.000088900581841e-12,
-                                        "value": "Maharashtra"
+                                        "value": "XX"
                                       },
                                       "emerging_lineage": {
                                         "value": "B.1.617.2 (Delta)"
@@ -8572,10 +8572,10 @@
                                           "div": 42,
                                           "division": {
                                             "confidence": {
-                                              "Maharashtra": 1.0
+                                              "XX": 1.0
                                             },
                                             "entropy": -1.000088900581841e-12,
-                                            "value": "Maharashtra"
+                                            "value": "XX"
                                           },
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
@@ -8623,10 +8623,10 @@
                                           "div": 40,
                                           "division": {
                                             "confidence": {
-                                              "Maharashtra": 1.0
+                                              "XX": 1.0
                                             },
                                             "entropy": -1.000088900581841e-12,
-                                            "value": "Maharashtra"
+                                            "value": "XX"
                                           },
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
@@ -8667,10 +8667,10 @@
                                       "div": 40,
                                       "division": {
                                         "confidence": {
-                                          "Maharashtra": 0.999914938373817
+                                          "XX": 0.999914938373817
                                         },
                                         "entropy": 0.0011532871728365103,
-                                        "value": "Maharashtra"
+                                        "value": "XX"
                                       },
                                       "emerging_lineage": {
                                         "value": "B.1.617.2 (Delta)"
@@ -8699,10 +8699,10 @@
                                   "div": 40,
                                   "division": {
                                     "confidence": {
-                                      "Maharashtra": 0.999913233228271
+                                      "XX": 0.999913233228271
                                     },
                                     "entropy": 0.0011746080606270916,
-                                    "value": "Maharashtra"
+                                    "value": "XX"
                                   },
                                   "emerging_lineage": {
                                     "value": "B.1.617.2 (Delta)"
@@ -8761,10 +8761,10 @@
                                           "div": 40,
                                           "division": {
                                             "confidence": {
-                                              "Maharashtra": 1.0
+                                              "XX": 1.0
                                             },
                                             "entropy": -1.000088900581841e-12,
-                                            "value": "Maharashtra"
+                                            "value": "XX"
                                           },
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
@@ -8815,10 +8815,10 @@
                                           "div": 40,
                                           "division": {
                                             "confidence": {
-                                              "Maharashtra": 1.0
+                                              "XX": 1.0
                                             },
                                             "entropy": -1.000088900581841e-12,
-                                            "value": "Maharashtra"
+                                            "value": "XX"
                                           },
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
@@ -8859,10 +8859,10 @@
                                       "div": 40,
                                       "division": {
                                         "confidence": {
-                                          "Maharashtra": 0.999914904004606
+                                          "XX": 0.999914904004606
                                         },
                                         "entropy": 0.0011537161833730593,
-                                        "value": "Maharashtra"
+                                        "value": "XX"
                                       },
                                       "emerging_lineage": {
                                         "value": "B.1.617.2 (Delta)"
@@ -8906,10 +8906,10 @@
                                           "div": 40,
                                           "division": {
                                             "confidence": {
-                                              "Maharashtra": 1.0
+                                              "XX": 1.0
                                             },
                                             "entropy": -1.000088900581841e-12,
-                                            "value": "Maharashtra"
+                                            "value": "XX"
                                           },
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
@@ -8960,10 +8960,10 @@
                                           "div": 40,
                                           "division": {
                                             "confidence": {
-                                              "Maharashtra": 1.0
+                                              "XX": 1.0
                                             },
                                             "entropy": -1.000088900581841e-12,
-                                            "value": "Maharashtra"
+                                            "value": "XX"
                                           },
                                           "emerging_lineage": {
                                             "value": "B.1.617.2 (Delta)"
@@ -9004,10 +9004,10 @@
                                       "div": 40,
                                       "division": {
                                         "confidence": {
-                                          "Maharashtra": 0.999914904004606
+                                          "XX": 0.999914904004606
                                         },
                                         "entropy": 0.0011537161833730593,
-                                        "value": "Maharashtra"
+                                        "value": "XX"
                                       },
                                       "emerging_lineage": {
                                         "value": "B.1.617.2 (Delta)"
@@ -9036,10 +9036,10 @@
                                   "div": 40,
                                   "division": {
                                     "confidence": {
-                                      "Maharashtra": 0.999911495315189
+                                      "XX": 0.999911495315189
                                     },
                                     "entropy": 0.0011963026277248428,
-                                    "value": "Maharashtra"
+                                    "value": "XX"
                                   },
                                   "emerging_lineage": {
                                     "value": "B.1.617.2 (Delta)"
@@ -9068,10 +9068,10 @@
                               "div": 39,
                               "division": {
                                 "confidence": {
-                                  "Maharashtra": 0.9999131549121555
+                                  "XX": 0.9999131549121555
                                 },
                                 "entropy": 0.001175580091998027,
-                                "value": "Maharashtra"
+                                "value": "XX"
                               },
                               "emerging_lineage": {
                                 "value": "B.1.617.2 (Delta)"
@@ -17683,10 +17683,10 @@
                           "div": 38,
                           "division": {
                             "confidence": {
-                              "Maharashtra": 0.9999995381722607
+                              "XX": 0.9999995381722607
                             },
                             "entropy": 7.606482436264265e-06,
-                            "value": "Maharashtra"
+                            "value": "XX"
                           },
                           "emerging_lineage": {
                             "value": "B.1.617.2 (Delta)"
@@ -17715,10 +17715,10 @@
                       "div": 37,
                       "division": {
                         "confidence": {
-                          "Maharashtra": 0.9997108022862506
+                          "XX": 0.9997108022862506
                         },
                         "entropy": 0.003208872954092985,
-                        "value": "Maharashtra"
+                        "value": "XX"
                       },
                       "emerging_lineage": {
                         "value": "B.1.617.2 (Delta)"
@@ -17747,11 +17747,11 @@
                   "div": 36,
                   "division": {
                     "confidence": {
-                      "Maharashtra": 0.9975887256846699,
+                      "XX": 0.9975887256846699,
                       "Tamil Nadu": 0.0015026019512701274
                     },
                     "entropy": 0.02029667487146429,
-                    "value": "Maharashtra"
+                    "value": "XX"
                   },
                   "emerging_lineage": {
                     "value": "B.1.617.2 (Delta)"
@@ -17782,11 +17782,11 @@
                 "confidence": {
                   "Andhra Pradesh": 0.041277622605232184,
                   "Hubei": 0.0062726043727275894,
-                  "Maharashtra": 0.9421714216768816,
+                  "XX": 0.9421714216768816,
                   "Tamil Nadu": 0.0010053976397365423
                 },
                 "entropy": 0.2989629319883807,
-                "value": "Maharashtra"
+                "value": "XX"
               },
               "emerging_lineage": {
                 "value": "B.1.617.2 (Delta)"
@@ -17818,10 +17818,10 @@
               "Andhra Pradesh": 0.0145197857572956,
               "Hubei": 0.02152372013490161,
               "Karnataka": 0.001685597477730777,
-              "Maharashtra": 0.9498612000246455
+              "XX": 0.9498612000246455
             },
             "entropy": 0.2966475523171066,
-            "value": "Maharashtra"
+            "value": "XX"
           },
           "emerging_lineage": {
             "value": "B.1.617.2 (Delta)"
@@ -17850,7 +17850,7 @@
           "Andhra Pradesh": 0.011683713072733568,
           "California": 0.0066989198864328215,
           "Hubei": 0.46146766533547706,
-          "Maharashtra": 0.40714401728281685
+          "XX": 0.40714401728281685
         },
         "entropy": 1.4168080905031257,
         "value": "Hubei"
